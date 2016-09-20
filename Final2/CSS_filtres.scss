@@ -48,9 +48,12 @@ code {
 }
 
 #grayscale #filtre_grayscale:hover {
-    filter: grayscale(0.7);
-    transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
+  filter: grayscale(.7);
+  transition: all 0.3s ease-in-out;
+  -webkit-filter: grayscale(.7);
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-filter: grayscale(.7);
+  -moz-transition: all 0.3s ease-in-out;
 }
 
 #blur #filtre_blur:hover {
