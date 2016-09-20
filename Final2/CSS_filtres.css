@@ -49,6 +49,8 @@ p, li, ul, h1 {
   position: absolute; }
 
 article {
+  width: 50vw;
+  margin-left: 25vw;
   display: flex; }
 
 .code {
