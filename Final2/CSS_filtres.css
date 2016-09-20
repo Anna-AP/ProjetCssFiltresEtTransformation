@@ -182,13 +182,13 @@ code {
 
 @keyframes slideranim {
   20% {
-    filter: grayscale(1); }
+    -webkit-filter: grayscale(1); }
   40% {
-    filter: brightness(1.5); }
+    -webkit-filter: brightness(1.5); }
   60% {
-    filter: sepia(1); }
+    -webkit-filter: sepia(1); }
   80% {
-    filter: invert(1); } }
+    -webkit-filter: invert(1); } }
 p, h1, li, ul {
   font-family: Francois One, sans-serif; }
 
