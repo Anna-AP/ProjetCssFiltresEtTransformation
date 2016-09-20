@@ -175,4 +175,8 @@ footer {
 #mark {
   height: 1140%; }
 
+  #attention::before{
+    content:url(http://www.rxlabz.com/simplon/files/icons/dialog-warning.png);
+  }
+
 /*# sourceMappingURL=CSS_transform.css.map */
