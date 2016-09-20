@@ -44,9 +44,18 @@ span {
 }
 
 
+#attention::before{
+   content:url("http://www.rxlabz.com/simplon/files/icons/dialog-warning.png");
+   padding-right: 20px;
+ }
+
 #demonstration_origin {
-  display: flex;
+  display: inline-flex;
   width: 100vw ;
+}
+.demo-origin {
+  width : 30vw;
+  padding : 0 10vw;
 }
 
 #texte1 {
