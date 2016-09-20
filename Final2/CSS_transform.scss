@@ -9,6 +9,10 @@
     margin: auto;
 }
 
+#attention::before{
+  content:url(http://www.rxlabz.com/simplon/files/icons/dialog-warning.png);
+}
+
 #demo_scale:hover {
     transform:scale(1.5);
     transition: all .6s ease-in;
