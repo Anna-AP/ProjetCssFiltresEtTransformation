@@ -48,6 +48,10 @@ p, li, ul, h1 {
   z-index: -2;
   position: absolute; }
 
+.hiddencontent {
+  overflow: hidden;
+  height: 0; }
+
 * {
   font-family: Just Another Hand, sans-serif;
   font-size: 25px; }

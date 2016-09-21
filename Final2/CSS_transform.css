@@ -48,6 +48,10 @@ p, li, ul, h1 {
   z-index: -2;
   position: absolute; }
 
+.hiddencontent {
+  overflow: hidden;
+  height: 0; }
+
 nav {
   padding-bottom: 120px; }
 
