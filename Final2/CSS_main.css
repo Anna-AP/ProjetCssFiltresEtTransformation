@@ -52,4 +52,7 @@ p, li, ul, h1 {
   overflow: hidden;
   height: 0; }
 
+#chapterheader:hover {
+  cursor: pointer; }
+
 /*# sourceMappingURL=CSS_main.css.map */

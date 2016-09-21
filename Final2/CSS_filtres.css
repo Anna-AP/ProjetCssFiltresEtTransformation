@@ -52,6 +52,9 @@ p, li, ul, h1 {
   overflow: hidden;
   height: 0; }
 
+#chapterheader:hover {
+  cursor: pointer; }
+
 nav {
   padding-bottom: 120px; }
 
