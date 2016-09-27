@@ -11,17 +11,17 @@ $textfont : Francois One , sans-serif ;
 $postitcolor : #F0E886 ;
 $pencilcolor : #252525 ;
 
-#liensUtiles {
+#liensUtiles, #backtotop {
     color : $pencilcolor;
+    text-decoration: none;
     font-family: $textfont;
-    text-align: center;
     font-size: 30px;
     padding-left: 90px;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     -ms-transition: all .3s ease-in-out;
 }
-#liensUtiles:hover {
+#liensUtiles:hover, #backtotop:hover {
   letter-spacing: 10px;
 }
 

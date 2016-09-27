@@ -1,14 +1,14 @@
-#liensUtiles {
+#liensUtiles, #backtotop {
   color: #252525;
+  text-decoration: none;
   font-family: Francois One, sans-serif;
-  text-align: center;
   font-size: 30px;
   padding-left: 90px;
   -webkit-transition: all .3s ease-in-out;
   -moz-transition: all .3s ease-in-out;
   -ms-transition: all .3s ease-in-out; }
 
-#liensUtiles:hover {
+#liensUtiles:hover, #backtotop:hover {
   letter-spacing: 10px; }
 
 footer {
