@@ -70,11 +70,16 @@ nav {
   padding-bottom: 120px; }
 
 .demo {
+  position: relative;
+  z-index: 1;
   width: 300px;
   height: 150px;
   background-image: url("images/demo_box.png");
   background-size: contain;
   margin: auto; }
+
+#attention::before {
+  content: url(http://www.rxlabz.com/simplon/files/icons/dialog-warning.png); }
 
 #demo_scale:hover {
   -webkit-transform: scale(1.5);
@@ -141,7 +146,9 @@ span {
   text-align: center;
   display: block;
   width: 30vw;
-  margin: 20px 35vw; }
+  margin: 20px 35vw;
+  position: relative;
+  z-index: 2; }
 
 .box {
   background: lightblue;
@@ -263,10 +270,5 @@ footer {
 #imagescalefactor:hover {
   height: 55%;
   width: 55%; }
-
-  #attention::before{
-    content:url(http://www.rxlabz.com/simplon/files/icons/dialog-warning.png);
-  }
-
 
 /*# sourceMappingURL=CSS_transform.css.map */
