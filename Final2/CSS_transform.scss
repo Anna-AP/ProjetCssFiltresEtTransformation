@@ -224,15 +224,14 @@ footer {
   }
 }
 
-#imagescalefactor {
+.imagescalefactor {
   height: 60px;
   width: 60px;
   -webkit-transition: all .3s ease-in-out;
   -moz-transition: all .3s ease-in-out;
-  -ms-transition: all .3s ease-in-out;
-}
+  -ms-transition: all .3s ease-in-out; }
 
-#imagescalefactor:hover {
+.imagescalefactor2 {
   height: 55%;
   width: 55%;
 }
